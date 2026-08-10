@@ -18,7 +18,7 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | Chưa có — cập nhật URL `onrender.com` sau khi Blueprint deploy thành công |
+| Public URL | https://day12-agent-x5nv.onrender.com |
 | Platform | Render Blueprint |
 | Ngày deploy | 2026-08-10 |
 
@@ -73,7 +73,9 @@ done; echo
 Dán output của các lệnh trên vào đây:
 
 ```text
-Chưa có kết quả cloud — cập nhật sau khi service Render chuyển sang Live.
+GET /health -> 200 {"status":"ok","service":"day12-agent","version":"1.0.0"}
+GET /ready  -> 500 Internal Server Error (đang kiểm tra cấu hình REDIS_URL)
+POST /ask không có API key -> 500 Internal Server Error (dependency Redis chưa khởi tạo)
 ```
 
 ## Ảnh Chụp Màn Hình
