@@ -5,7 +5,7 @@
 >
 > Cách trả lời: thay từng dòng trả lời mẫu bên dưới bằng câu trả lời của bạn.
 > `grade.py` đếm số câu đã trả lời (15 điểm cho 10 câu).
->
+
 > Họ và tên: Vũ Minh Đức  Mã học viên: 2A202602006
 
 ---
